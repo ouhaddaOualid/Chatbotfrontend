@@ -53,8 +53,14 @@ class SimpleForm extends Component {
           {
             id:'userRes',
             user:true,
-            trigger:'post'
+            
+            asMessage:true,
+            trigger:'hi'
           },
+            {
+                id:'hi',
+                message: 'hey how can i help you'
+            },
           {
             id:'post',
             component: <Post/>,

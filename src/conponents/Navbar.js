@@ -26,6 +26,9 @@ const Navbar = () => {
             <li>
                 <Link to='/plus'>MORE</Link>
             </li>
+            <li>
+                <Link to='/Login'>Se connecter</Link>
+            </li>
         </ul>
         <div className="humberger" onClick={handleClick}>
             {click ? (<FaBars size={20} style={{color :"white"}}/>):(<FaBars size={20} style={{color :"white"}}/>)}
